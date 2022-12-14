@@ -13,7 +13,7 @@ header {
 
 main {
   width: 100%;
-  margin: 50px auto;
+  margin: 50px;
   display: flex;
 }
 
@@ -21,14 +21,8 @@ main {
 .step-box {
   width: 100%;
   margin-right: 20px;
-  padding: 10px;
   position: relative;
   background-color: #eee;
-}
-
-
-.step-box:last-child {
-  margin-right: 0;
 }
 
 
@@ -37,6 +31,7 @@ main {
   background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
+  margin: 10px;
 }
 
 
@@ -45,6 +40,7 @@ main {
   background-image: url(img/flow02.png);
   background-position: bottom;
   background-size: cover;
+  margin: 10px;
 }
 
 
@@ -53,6 +49,7 @@ main {
   background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
+  margin: 10px;
 }
 
 
@@ -66,10 +63,13 @@ main {
 
 
 .title {
-  margin: 15px 0 5px;
+  margin: 15px;
 }
 
 
+p {
+  margin: 15px;
+}
 
 footer {
   height: 50px;
@@ -95,24 +95,27 @@ footer {
 }
 
   .step-box {
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 90%;
+    padding-top: 10px;
   }
 
   .step-img1 {
-    width: 49%;
+    height: 150px;
+    margin: 10px;
   }
 
   .step-img2 {
-    width: 49%;
+    height: 150px;
+    margin: 10px;
   }
 
   .step-img3 {
-    width: 49%;
+    height: 150px;
+    margin: 10px;
   }
 
   .step-num {
-    width: 100%;
+    width: 50px;
   }
 
   .title {
