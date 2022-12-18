@@ -13,16 +13,20 @@ header {
 
 main {
   width: 100%;
-  margin: 50px;
+  margin: 50px auto;
   display: flex;
 }
 
 
 .step-box {
-  width: 100%;
-  margin-right: 20px;
+  width: 90%;
+  margin-right: 30px;
   position: relative;
   background-color: #eee;
+}
+
+.step-box:last-child {
+  margin-right: 0;
 }
 
 
@@ -77,16 +81,7 @@ footer {
 }
 
 
-
-
 @media screen and (max-width:768px) {
-  header {
-    width: 100%;
-  }
-
-  .social {
-    display: none;
-  }
 
 
   main {
@@ -97,6 +92,8 @@ footer {
   .step-box {
     width: 90%;
     padding-top: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 
   .step-img1 {
